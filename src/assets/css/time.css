@@ -1,0 +1,17 @@
+.time__item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 25%;
+    height: 600px;
+    padding: 30px;
+  }
+  
+  .icone {
+    border-radius: 50%;
+  }
+  .nomes {
+    padding-top: 10%;
+    font-size: 30px;
+    text-align: center;
+  }
