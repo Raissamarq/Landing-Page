@@ -1,6 +1,6 @@
 Taks:
     ✔ Criar ancorar nos links @done (22/03/2022 11:39:29)
-    ☐ Separar os arquivos de imagem
+    ✔ Separar os arquivos de imagem @done (22/03/2022 11:45:26)
     Estilo:
-        ☐ Separar os arquivos de estilos
+        ✔ Separar os arquivos de estilos @done (22/03/2022 11:45:39)
         ☐ Criar estilos para cada componente e import no estilo principal
