@@ -16,6 +16,10 @@ body {
   font-family: "Courier New", Courier, monospace;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 .header {
   background: #5500ff;
 }
@@ -45,9 +49,4 @@ body {
 
 .logo {
   padding: 10px 10px;
-}
-
-.titulo {
-  font-size: 36px;
-  text-align: center;
 }

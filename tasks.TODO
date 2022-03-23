@@ -12,5 +12,5 @@ Taks:
         ✔ Separar os arquivos de estilos @done (22/03/2022 11:45:39)
         ✔ Criar estilos para cada componente e import no estilo principal @done (22/03/2022 14:20:59)
     Projetos:
-        ☐ Quando o mouse está em cima do card o card deve ficar escuro
-        ☐ Quando o mouse está em cima do card o card deve ser exibido um texto de descrição do projeto
+        ✔ Quando o mouse está em cima do card o card deve ficar escuro @done (22/03/2022 15:15:51)
+        ✔ Quando o mouse está em cima do card o card deve ser exibido um texto de descrição do projeto @done (23/03/2022 14:28:31)
