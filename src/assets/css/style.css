@@ -1,6 +1,6 @@
-@import "project.css";
-@import "time.css";
-@import "wrapper.css";
+@import "./company/project.css";
+@import "./company/time.css";
+@import "./company/wrapper.css";
 
 * {
   margin: 0;
