@@ -1,6 +1,7 @@
 @import "./company/project.css";
 @import "./company/time.css";
 @import "./company/wrapper.css";
+@import "./company/flip.css";
 
 * {
   margin: 0;

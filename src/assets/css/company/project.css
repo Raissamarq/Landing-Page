@@ -7,30 +7,18 @@
   font-size: 150px;
 }
 .project__item {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: space-between;
   width: 24%;
   height: 600px;
-  padding: 25px 0 125px 0;
-  background-color: #c8c2ff;
-  transition: background-color 0.4s ease;
 }
 
-.project__item:nth-of-type(even) {
+.project__item:nth-of-type(even) .flip-front {
+  background-color: #a491ff;
+}
+.project__item:nth-of-type(even) .flip-back {
   background-color: #a491ff;
 }
 
-.project__item:hover {
-  background: rgba(0, 0, 0, 0.9);
-}
 .project__description {
-  opacity: 0;
-  transition: background-color 0.4s ease, opacity 0.8s ease;
   color: #fff;
   padding: 30px;
-}
-.project__item:hover .project__description {
-  opacity: 1;
 }

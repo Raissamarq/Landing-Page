@@ -14,6 +14,6 @@ Taks:
     Projetos:
         ✔ Quando o mouse está em cima do card o card deve ficar escuro @done (22/03/2022 15:15:51)
         ✔ Quando o mouse está em cima do card o card deve ser exibido um texto de descrição do projeto @done (23/03/2022 14:28:31)
-        ☐ Quando o mouse está em cima do card o mesmo virar como uma carta
+        ✔ Quando o mouse está em cima do card o mesmo virar como uma carta @done (28/03/2022 12:18:12)
     Time:
         ☐ Abrir modal de detalhe da pessoa
