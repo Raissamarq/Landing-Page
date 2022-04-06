@@ -10,6 +10,7 @@
       src="https://kit.fontawesome.com/ebb0e05586.js"
       crossorigin="anonymous"
     ></script>
+    <script src="./script/modal.js" defer></script>
     <title>Octopus</title>
   </head>
 
@@ -100,54 +101,130 @@
             </div>
           </section>
         </div>
-
+        <div class="time__wrapper wrapper teste"></div>
         <h1 class="tituloMaior wrapper"><a name="team"></a>Time</h1>
         <div class="time__wrapper wrapper">
           <section class="time__item">
-            <img src="assets/img/leo.png" class="icone" />
+            <img
+              src="assets/img/leo.png"
+              class="js-modal-open time__item__image"
+              data-name="Leonardo Dias"
+              data-description="Desenvolvedor no time Octopus. Confira seu linkedin: "
+              data-linkedin="https://www.linkedin.com/in/leonardo-dias-543171180/"
+            />
             <p class="nomes">Leonardo Dias<br />Developer</p>
           </section>
           <section class="time__item">
-            <img src="assets/img/marvel.png" class="icone" />
+            <img
+              src="assets/img/marvel.png"
+              class="js-modal-open time__item__image"
+              data-name="Marcel Luz"
+              data-description="Líder do time Octopus. Confira seu linkedin: "
+              data-linkedin="https://www.linkedin.com/in/marcel-villalobo-da-luz/"
+            />
             <p class="nomes">Marcel Luz<br />Team Manager</p>
           </section>
           <section class="time__item">
-            <img src="assets/img/paulo.png" class="icone" />
-            <p class="nomes">Paulo Nunes<br />Developer</p>
+            <img
+              src="assets/img/paulo.png"
+              class="js-modal-open time__item__image"
+              data-name="Paulo Nunes"
+              data-description="Desenvolvedor no time Octopus. Confira seu linkedin: "
+              data-linkedin="https://www.linkedin.com/in/paulodsn/"
+            />
+            <p class="nomes">Paulo Nunes<br />Deveploper</p>
           </section>
           <section class="time__item">
-            <img src="assets/img/niangela.png" class="icone" />
+            <img
+              src="assets/img/niangela.png"
+              class="js-modal-open time__item__image"
+              data-name="Niangela Tiezi"
+              data-description="Product Owner no time Octopus. Confira seu linkedin: "
+              data-linkedin="https://www.linkedin.com/in/niangelatiezi/"
+            />
             <p class="nomes">Niangela Tiezi<br />Product Owner</p>
           </section>
           <section class="time__item">
-            <img src="assets/img/iza.png" class="icone" />
+            <img
+              src="assets/img/iza.png"
+              class="js-modal-open time__item__image"
+              data-name="Izabelle Derrihu"
+              data-description="Desenvolvedora Javascript no time Octopus. Confira seu linkedin: "
+              data-linkedin="https://www.linkedin.com/in/izabelle-derrih%C3%BA-938a39108/"
+            />
             <p class="nomes">Izabelle Derrihu<br />Developer</p>
           </section>
           <section class="time__item">
-            <img src="assets/img/let.png" class="icone" />
+            <img
+              src="assets/img/let.png"
+              class="js-modal-open time__item__image"
+              data-name="Leticia Bezerra"
+              data-description="Analista de Qualidade no time Octopus. Confira seu linkedin: "
+              data-linkedin="https://www.linkedin.com/in/leticia-crbezerra/"
+            />
             <p class="nomes">Leticia Bezerra<br />Quality Analyst</p>
           </section>
           <section class="time__item">
-            <img src="assets/img/matheus.png" class="icone" />
+            <img
+              src="assets/img/matheus.png"
+              class="js-modal-open time__item__image"
+              data-name="Matheus Brasileiro"
+              data-description="Analista de Produto no time Octopus. Confira seu linkedin: "
+              data-linkedin="https://www.linkedin.com/in/matheusboliveira/"
+            />
             <p class="nomes">Matheus Brasileiro<br />Product Analyst</p>
           </section>
           <section class="time__item">
-            <img src="assets/img/rafa.png" class="icone" />
+            <img
+              src="assets/img/rafa.png"
+              class="js-modal-open time__item__image"
+              data-name="Rafael Torres"
+              data-description="Desenvolvedor Javascript no time Octopus. Confira seu linkedin: "
+              data-linkedin="https://www.linkedin.com/in/rafaeltorres20/"
+            />
             <p class="nomes">Rafael Torres <br />Developer</p>
           </section>
           <section class="time__item">
-            <img src="assets/img/raissa.png" class="icone" />
+            <img
+              src="assets/img/raissa.png"
+              class="js-modal-open time__item__image"
+              data-name="Raissa Barros"
+              data-description="Desenvolvedora no time Octopus. Confira seu linkedin: "
+              data-linkedin="https://www.linkedin.com/in/raissa-marquesb/"
+            />
             <p class="nomes">Raissa Barros<br />Developer</p>
           </section>
 
           <section class="time__item">
-            <img src="assets/img/ingrid.png" class="icone" />
+            <img
+              src="assets/img/ingrid.png"
+              class="js-modal-open time__item__image"
+              data-name="Ingrid Pinilha"
+              data-description="Designer de Produto no time Octopus. Confira seu linkedin: "
+              data-linkedin="https://www.linkedin.com/in/ingridpinilha/"
+            />
             <p class="nomes">Ingrid Pinilha <br />Product Designer</p>
           </section>
           <section class="time__item">
-            <img src="assets/img/andre.png" class="icone" />
+            <img
+              src="assets/img/andre.png"
+              class="js-modal-open time__item__image"
+              data-name="Andre Lopes"
+              data-description="Gerente de equipe no time Octopus. Confira seu linkedin: "
+              data-linkedin="https://www.linkedin.com/in/andr%C3%A9-dos-reis-lopes-0411aa23/"
+            />
             <p class="nomes">Andre Lopes<br />Group Manager</p>
           </section>
+        </div>
+
+        <div class="modal-overlay js-modal-close"></div>
+        <div id="modal__time" class="modal">
+          <div class="modal__conteudo">
+            <button class="fechar js-modal-close">x</button>
+            <h1 class="modal__title"></h1>
+            <p class="modal__description"></p>
+            <a class="modal__link" href="" target="_blank">Linkedin </a>
+          </div>
         </div>
       </section>
     </main>

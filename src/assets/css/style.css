@@ -2,6 +2,7 @@
 @import "./company/time.css";
 @import "./company/wrapper.css";
 @import "./company/flip.css";
+@import "./company/modal.css";
 
 * {
   margin: 0;
