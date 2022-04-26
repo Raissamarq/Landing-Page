@@ -35,14 +35,11 @@ html {
   margin-right: 1.25rem;
   text-decoration: none;
   text-transform: lowercase;
+  font-size: 25px;
 }
 
 .link:hover {
   text-decoration: underline;
-}
-
-.link {
-  font-size: 25px;
 }
 
 .tituloMaior {

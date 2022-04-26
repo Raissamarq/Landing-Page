@@ -8,10 +8,12 @@ Taks:
         ✔ Alterar o title do projeto @done (22/03/2022 13:46:15)
         ✔ Criar ancorar nos links @done (22/03/2022 11:39:29)
         ✔ Separar os arquivos de imagem @done (22/03/2022 11:45:26)
-        ☐ Configurar o npm no projeto (pode ajudar: https://rockcontent.com/br/blog/npm/)
-        ☐ Implementar algum HTTP server (talvez https://www.npmjs.com/package/http-server?) para facilitar como rodamos o projeto
-            ☐ Adicionar no readme.md como rodar com o HTTP Server
-        ☐ Configurar o sass no projeto (pode ajudar: https://medium.com/@lcnogueira/configurando-o-sass-de-maneira-simples-918d409cd677)
+        ✔ Configurar o npm no projeto (pode ajudar: https://rockcontent.com/br/blog/npm/) @done (22/04/2022 14:01:56)
+        ✔ Implementar algum HTTP server (talvez https://www.npmjs.com/package/http-server?) para facilitar como rodamos o projeto @done (22/04/2022 15:46:50)
+            ✔ Adicionar no readme.md como rodar com o HTTP Server @done (22/04/2022 15:59:20)
+        ✔ Configurar o sass no projeto (pode ajudar: https://medium.com/@lcnogueira/configurando-o-sass-de-maneira-simples-918d409cd677) @done (22/04/2022 16:36:46)
+        ☐ Documentar arquitetura do projeto
+        ☐ Transformar o css para scss
     Estilo:
         ✔ Separar os arquivos de estilos @done (22/03/2022 11:45:39)
         ✔ Criar estilos para cada componente e import no estilo principal @done (22/03/2022 14:20:59)

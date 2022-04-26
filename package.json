@@ -1,0 +1,19 @@
+{
+  "name": "landing-page",
+  "version": "1.0.0",
+  "description": "octopus landing page",
+  "main": "src/script/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "cd src && http-server",
+    "sass": "node-sass -w src/assets/scss/ -o dist/css --recursive"
+  },
+  "author": "FrontEnd/Octopus",
+  "license": "ISC",
+  "dependencies": {
+    "http-server": "^14.1.0"
+  },
+  "devDependencies": {
+    "node-sass": "^7.0.1"
+  }
+}
