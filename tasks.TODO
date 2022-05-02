@@ -12,11 +12,11 @@ Taks:
         ✔ Implementar algum HTTP server (talvez https://www.npmjs.com/package/http-server?) para facilitar como rodamos o projeto @done (22/04/2022 15:46:50)
             ✔ Adicionar no readme.md como rodar com o HTTP Server @done (22/04/2022 15:59:20)
         ✔ Configurar o sass no projeto (pode ajudar: https://medium.com/@lcnogueira/configurando-o-sass-de-maneira-simples-918d409cd677) @done (22/04/2022 16:36:46)
-        ☐ Documentar arquitetura do projeto
-        ☐ Transformar o css para scss
+        ✔ Documentar arquitetura do projeto @done (26/04/2022 11:19:34)
+        ✔ Transformar o css para scss @done (02/05/2022 10:52:32)
     Estilo:
         ✔ Separar os arquivos de estilos @done (22/03/2022 11:45:39)
-        ✔ Criar estilos para cada componente e import no estilo principal @done (22/03/2022 14:20:59)
+        ✔ Criar estilos para cada componente e o import no estilo principal @done (22/03/2022 14:20:59)
     Projetos:
         ✔ Quando o mouse está em cima do card o card deve ficar escuro @done (22/03/2022 15:15:51)
         ✔ Quando o mouse está em cima do card o card deve ser exibido um texto de descrição do projeto @done (23/03/2022 14:28:31)

@@ -1,0 +1,24 @@
+.titulo {
+    font-size: 36px;
+    text-align: center;
+  }
+  
+  .projectIcon {
+    font-size: 150px;
+  }
+  .project__item {
+    width: 24%;
+    height: 600px;
+  }
+  
+  .project__item:nth-of-type(even) .flip-front {
+    background-color: #a491ff;
+  }
+  .project__item:nth-of-type(even) .flip-back {
+    background-color: #a491ff;
+  }
+  
+  .project__description {
+    color: #fff;
+    padding: 30px;
+  }

@@ -1,0 +1,65 @@
+.modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    transform: translate(-50%, -50%);
+    z-index: 2000;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.6s ease, top 1s ease, left 1s ease;
+  }
+  
+  .modal-open {
+    opacity: 1;
+    pointer-events: all;
+    top: 50%;
+    left: 50%;
+  }
+  
+  
+  .modal-overlay {
+    opacity: 0;
+    pointer-events: none;
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    right: 0;
+    top: 0;
+    transition: opacity 0.3s ease;
+  }
+  
+  .modal-overlay-open {
+    opacity: 1;
+    background: rgba(0, 0, 0, 0.5);
+    pointer-events: all;
+  }
+  
+  .modal__conteudo {
+    background-color: white;
+    width: 100%;
+    min-width: 300px;
+    padding: 40px;
+    border: 10px solid #0000;
+    box-shadow: 15px 15px;
+    position: relative;
+  }
+  
+  
+  .fechar {
+    position: absolute;
+    font-size: 20px;
+    top: 0px;
+    right: 0px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 4px solid white;
+    background: blue;
+    color: white;
+    cursor: pointer;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.3);
+  }
+  
+  .modal__description {
+    margin: 25px 0;
+  }

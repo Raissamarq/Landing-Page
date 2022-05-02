@@ -1,0 +1,47 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  li {
+    list-style: none;
+  }
+}
+
+body {
+  font-family: "Courier New", Courier, monospace;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.header {
+  background: #5500ff;
+}
+
+.list {
+  display: flex;
+}
+
+.link {
+  color: aliceblue;
+  margin-right: 1.25rem;
+  text-decoration: none;
+  text-transform: lowercase;
+  font-size: 25px;
+  &:hover {
+    text-decoration: underline;
+  }
+}
+
+.tituloMaior {
+  font-size: 70px;
+}
+
+.logo {
+  padding: 10px 10px;
+}
