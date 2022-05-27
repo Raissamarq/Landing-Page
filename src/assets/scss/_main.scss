@@ -3,6 +3,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+
 }
 
 header {
@@ -36,12 +37,24 @@ html {
   &:hover {
     text-decoration: underline;
   }
+  @include for-phone-only{
+      font-size: 15px;
+  }
 }
 
 .tituloMaior {
   font-size: 70px;
+  @include for-phone-only{
+      font-size: 50px;
+      text-align: center;
+  }
 }
 
 .logo {
   padding: 10px 10px;
+
+  @include for-phone-only{
+     width: 145px;
+     height: 70px;
+  }
 }

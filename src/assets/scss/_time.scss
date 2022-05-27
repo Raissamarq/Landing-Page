@@ -5,15 +5,29 @@
     width: 25%;
     height: 600px;
     padding: 30px;
+
+    @include for-phone-only{
+      width: 45%;
+      margin: 0 2% 25px 2%;
+      padding: 0;
+      height: auto;
+    }
   }
   
   .time__item__image {
     border-radius: 50%;
+    width: 100%;
     cursor: pointer;
+  
   }
   .nomes {
     padding-top: 10%;
     font-size: 30px;
     text-align: center;
+    @include for-phone-only{
+      font-size: 15px;
+      height: 80px;
+    
+    }
   }
   

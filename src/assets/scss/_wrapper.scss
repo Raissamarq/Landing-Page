@@ -2,6 +2,12 @@
 .wrapper {
     width: 1700px;
     margin: 50px auto;
+
+    @include for-phone-only{
+      width: 90%;
+      margin: 20px auto;
+    }
+    
   }
   .wrapper--noMargin {
     margin-top: 0;
@@ -12,15 +18,26 @@
     display: flex;
     justify-content: space-between;
     height: 80px;
+
+    @include for-phone-only{
+      height: 50px;
+    }
   }
   .project__wrapper {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-around;
+
+    @include for-phone-only{
+      flex-direction: column;
+      align-items: baseline;
+    }
   }
   .time__wrapper {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
   }
+  
+

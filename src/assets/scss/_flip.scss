@@ -16,6 +16,17 @@
     transform-style: preserve-3d;
   }
   
+  @keyframes float {
+    0% {
+      padding-bottom: 70px;
+    } 
+    50%{
+      padding-bottom: 100px;
+    }100%{
+      padding-bottom: 70px;
+    }
+  }
+
   .flip-front,
   .flip-back {
     position: absolute;
@@ -23,18 +34,29 @@
     height: 100%;
     /* esconde a parte de tras do elemento html */
     backface-visibility: hidden;
-    padding: 25px 0 125px 0;
+    padding: 25px 0;
     background-color: #c8c2ff;
+
+    animation-duration: 3s;
+    animation-name: float;
+    animation-iteration-count:infinite;
   }
+
+  
   
   .flip-front {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
+
+    
   }
   
   .flip-back {
     transform: rotateY(180deg);
   }
+  
+
+  
   
