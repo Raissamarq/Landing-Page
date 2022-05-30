@@ -16,9 +16,10 @@
   
   .time__item__image {
     border-radius: 50%;
-    width: 100%;
+    width: 200px;
+    height: 200px;
     cursor: pointer;
-  
+    object-fit: cover;
   }
   .nomes {
     padding-top: 10%;

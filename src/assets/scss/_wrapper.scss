@@ -1,14 +1,20 @@
 /* margin - centralizar */
 .wrapper {
-    width: 1700px;
+    width: 90%;
     margin: 50px auto;
 
     @include for-phone-only{
-      width: 90%;
       margin: 20px auto;
     }
-    
-  }
+
+    @include for-desktop-up{
+      width: 1080px;
+    }
+
+    @include for-big-desktop-up{
+      width: 1340px;
+    }
+      }
   .wrapper--noMargin {
     margin-top: 0;
     margin-bottom: 0;

@@ -44,16 +44,20 @@ html { scroll-behavior: smooth; }
 
 @media screen and (max-width: 599px) { .time__item { width: 45%; margin: 0 2% 25px 2%; padding: 0; height: auto; } }
 
-.time__item__image { border-radius: 50%; width: 100%; cursor: pointer; }
+.time__item__image { border-radius: 50%; width: 200px; height: 200px; cursor: pointer; object-fit: cover; }
 
 .nomes { padding-top: 10%; font-size: 30px; text-align: center; }
 
 @media screen and (max-width: 599px) { .nomes { font-size: 15px; height: 80px; } }
 
 /* margin - centralizar */
-.wrapper { width: 1700px; margin: 50px auto; }
+.wrapper { width: 90%; margin: 50px auto; }
 
-@media screen and (max-width: 599px) { .wrapper { width: 90%; margin: 20px auto; } }
+@media screen and (max-width: 599px) { .wrapper { margin: 20px auto; } }
+
+@media screen and (min-width: 1200px) { .wrapper { width: 1080px; } }
+
+@media screen and (min-width: 1440px) { .wrapper { width: 1340px; } }
 
 .wrapper--noMargin { margin-top: 0; margin-bottom: 0; }
 
