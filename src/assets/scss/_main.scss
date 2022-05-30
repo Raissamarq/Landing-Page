@@ -40,7 +40,14 @@ html {
   @include for-phone-only{
       font-size: 15px;
   }
-}
+
+  @include for-tablet-portrait-up{
+    font-size: 20px;
+  }
+
+  
+  }
+
 
 .tituloMaior {
   font-size: 70px;
@@ -48,6 +55,12 @@ html {
       font-size: 50px;
       text-align: center;
   }
+  
+  @include for-tablet-portrait-up{
+    font-size: 50px;
+    text-align: center;
+  }
+
 }
 
 .logo {

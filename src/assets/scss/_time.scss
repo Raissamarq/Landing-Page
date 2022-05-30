@@ -12,6 +12,14 @@
       padding: 0;
       height: auto;
     }
+
+    @include for-tablet-portrait-up{
+      width: 45%;
+      margin: 0 2% 25px 2%;
+      padding: 0;
+      height: auto;
+    }
+
   }
   
   .time__item__image {
@@ -29,6 +37,10 @@
       font-size: 15px;
       height: 80px;
     
+    }
+    @include for-tablet-portrait-up{
+      font-size: 20px;
+      height: 100px;
     }
   }
   

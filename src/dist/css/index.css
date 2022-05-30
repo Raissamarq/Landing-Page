@@ -16,9 +16,13 @@ html { scroll-behavior: smooth; }
 
 @media screen and (max-width: 599px) { .link { font-size: 15px; } }
 
+@media screen and (min-width: 600px) { .link { font-size: 20px; } }
+
 .tituloMaior { font-size: 70px; }
 
 @media screen and (max-width: 599px) { .tituloMaior { font-size: 50px; text-align: center; } }
+
+@media screen and (min-width: 600px) { .tituloMaior { font-size: 50px; text-align: center; } }
 
 .logo { padding: 10px 10px; }
 
@@ -28,11 +32,17 @@ html { scroll-behavior: smooth; }
 
 @media screen and (max-width: 599px) { .titulo { font-size: 30px; } }
 
+@media screen and (min-width: 600px) { .titulo { font-size: 25px; } }
+
 .projectIcon { font-size: 150px; }
+
+@media screen and (min-width: 600px) { .projectIcon { font-size: 100px; } }
 
 .project__item { width: 24%; height: 600px; }
 
 @media screen and (max-width: 599px) { .project__item { margin: 15px auto; width: 100%; height: 450px; } }
+
+@media screen and (min-width: 600px) { .project__item { margin: 15px auto; width: 45%; height: 400px; } }
 
 .project__item:nth-of-type(even) .flip-front { background-color: #a491ff; }
 
@@ -44,16 +54,22 @@ html { scroll-behavior: smooth; }
 
 @media screen and (max-width: 599px) { .time__item { width: 45%; margin: 0 2% 25px 2%; padding: 0; height: auto; } }
 
+@media screen and (min-width: 600px) { .time__item { width: 45%; margin: 0 2% 25px 2%; padding: 0; height: auto; } }
+
 .time__item__image { border-radius: 50%; width: 200px; height: 200px; cursor: pointer; object-fit: cover; }
 
 .nomes { padding-top: 10%; font-size: 30px; text-align: center; }
 
 @media screen and (max-width: 599px) { .nomes { font-size: 15px; height: 80px; } }
 
+@media screen and (min-width: 600px) { .nomes { font-size: 20px; height: 100px; } }
+
 /* margin - centralizar */
 .wrapper { width: 90%; margin: 50px auto; }
 
 @media screen and (max-width: 599px) { .wrapper { margin: 20px auto; } }
+
+@media screen and (min-width: 600px) { .wrapper { width: 500px; } }
 
 @media screen and (min-width: 1200px) { .wrapper { width: 1080px; } }
 

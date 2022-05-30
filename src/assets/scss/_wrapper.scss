@@ -7,6 +7,10 @@
       margin: 20px auto;
     }
 
+    @include for-tablet-portrait-up{
+      width: 500px;
+    }
+    
     @include for-desktop-up{
       width: 1080px;
     }
@@ -15,10 +19,13 @@
       width: 1340px;
     }
       }
+
   .wrapper--noMargin {
     margin-top: 0;
     margin-bottom: 0;
+
   }
+
   .header-wrapper {
     align-items: center;
     display: flex;
@@ -28,7 +35,9 @@
     @include for-phone-only{
       height: 50px;
     }
+  
   }
+
   .project__wrapper {
     display: flex;
     flex-wrap: wrap;
@@ -40,10 +49,13 @@
       align-items: baseline;
     }
   }
+
   .time__wrapper {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
+
+    
   }
   
 
