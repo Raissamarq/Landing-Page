@@ -5,21 +5,35 @@
     width: 25%;
     height: 600px;
     padding: 30px;
+    margin-bottom: 25px;
+    margin-right: auto;
+    padding: 0;
+    height: auto;
 
     @include for-phone-only{
       width: 45%;
-      margin: 0 2% 25px 2%;
-      padding: 0;
-      height: auto;
+    
     }
 
     @include for-tablet-portrait-up{
-      width: 45%;
-      margin: 0 2% 25px 2%;
-      padding: 0;
-      height: auto;
+      width: 240px;
+
     }
 
+    @include for-tablet-landscape-up{
+      width: 240px;
+
+    }
+
+    @include for-big-desktop-up{
+      margin-right: unset;
+      width: 268px;
+      }
+
+      @include for-large-desktop-up{
+        width: 340px;
+
+      }
   }
   
   .time__item__image {
@@ -28,19 +42,36 @@
     height: 200px;
     cursor: pointer;
     object-fit: cover;
+
+    @include for-phone-only{
+      width: 100px;
+      height: 100px;
+      
+    }
+    
+    @include for-large-desktop-up{
+      width: 280px;
+      height: 280px;
+    }
+    
   }
   .nomes {
     padding-top: 10%;
     font-size: 30px;
     text-align: center;
+
     @include for-phone-only{
       font-size: 15px;
       height: 80px;
     
     }
-    @include for-tablet-portrait-up{
+    @include for-tablet-portrait-up {
       font-size: 20px;
       height: 100px;
+    }
+
+    @include for-large-desktop-up{
+      font-size: 30px;
     }
   }
   

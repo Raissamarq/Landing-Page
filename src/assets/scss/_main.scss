@@ -41,24 +41,58 @@ html {
       font-size: 15px;
   }
 
-  @include for-tablet-portrait-up{
+  @include for-tablet-portrait-up {
     font-size: 20px;
   }
 
+  @include for-tablet-landscape-up {
+    font-size: 20px;
+  }
+
+  @include for-desktop-up{
+    font-size: 30px;
+  }
   
+  @include for-big-desktop-up{
+    font-size: 35px;
+    
+  }
+
+  @include for-large-desktop-up{
+    font-size: 45px;
+  }
+
+  
+
   }
 
 
 .tituloMaior {
   font-size: 70px;
+  text-align: center;
   @include for-phone-only{
       font-size: 50px;
-      text-align: center;
+      
   }
   
   @include for-tablet-portrait-up{
     font-size: 50px;
-    text-align: center;
+    
+  }
+
+  @include for-tablet-landscape-up{
+    font-size: 50px;
+    
+  }
+
+  @include for-desktop-up{
+    font-size: 70px;
+    
+  }
+
+  @include for-big-desktop-up{
+    font-size: 80px;
+    
   }
 
 }
@@ -69,5 +103,10 @@ html {
   @include for-phone-only{
      width: 145px;
      height: 70px;
+  }
+
+  @include for-large-desktop-up{
+    width: 200px;
+    height: 110px;
   }
 }
