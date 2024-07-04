@@ -5,7 +5,7 @@
   "main": "src/script/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "cd src && http-server -p 8080 -c-1",
+    "start": "cd src && http-server -p 8082 -c-1",
     "help": "http-server -h",
     "sass": "node-sass -w src/assets/scss/ -o src/dist/css --recursive --output-style=compact"
   },
